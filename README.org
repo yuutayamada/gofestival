@@ -1,0 +1,18 @@
+* gofestival.go
+This program can execute festival by go.
+** Usage
+#+BEGIN_SRC sh
+  cd ./THIS-REPOSITORY
+  go install
+#+END_SRC
+then
+#+BEGIN_SRC sh
+  $GOBIN/gofestival -text "hello"
+#+END_SRC
+You can hear the hello.
+
+or
+#+BEGIN_SRC sh
+  $GOBIN/gofestival -file "path/to/file"
+#+END_SRC
+Then you can hear file's content by festival
